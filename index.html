@@ -643,7 +643,13 @@
         }
 
         @media (max-width: 640px) {
+            .nav .container { gap: 8px; }
+            .nav-logo { font-size: 1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+            .nav-cta { font-size: 0.8rem; padding: 8px 14px; white-space: nowrap; flex-shrink: 0; }
             .hero { padding: 60px 0 70px; }
+            .hero h1 { font-size: 2rem; }
+            .hero-h1-sub { display: none; }
+            .hero-sub { font-size: 1rem; }
             .features-grid { grid-template-columns: 1fr; }
             .products-grid { grid-template-columns: 1fr; max-width: 400px; margin: 0 auto; }
             .uses-grid { grid-template-columns: 1fr; }
@@ -985,7 +991,7 @@
 <section class="hero">
     <div class="container">
         <div class="hero-badge">&#9670; Trusted by Labs, Hobbyists & Professionals Nationwide</div>
-        <h1>Buy <em>Deionized Water</em> Online | Fast Shipping & Bulk Discounts</h1>
+        <h1>Buy <em>Deionized Water</em> Online <span class="hero-h1-sub">| Fast Shipping & Bulk Discounts</span></h1>
         <p class="hero-sub">Your trusted deionized water supplier. Order ASTM-certified Type 1 Ultrapure and Type 2 Pure DI water with Certificate of Analysis. Fast nationwide shipping, bulk discounts, and subscription savings for repeat orders.</p>
         <div class="hero-buttons">
             <a href="https://astmwater.com/products?utm_source=buydeionizedwater&utm_medium=referral&utm_campaign=microsite" class="btn-primary">Shop Deionized Water &#8594;</a>
